@@ -14,13 +14,85 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.pepleohealth.activity.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.peoplehealth.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.CheckInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.peoplehealth.activity.CompleteBaseInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.HealthReportActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.InterestingContentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.FirstStartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.MallActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.ManagerSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.MyFavoriteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.OrderManagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.PayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.ProductDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.ProductEvaluteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.ProductListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.QuickRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.ShoppingCartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.peoplehealth.activity.WelcomeActivity"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
