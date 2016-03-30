@@ -1,7 +1,20 @@
 package com.peoplehealth.activity;
 
-import android.app.Activity;
+import java.util.List;
 
-public class ShoppingCartActivity extends Activity {
+import android.os.Bundle;
+import android.widget.ListView;
 
+import com.pepleohealth.R;
+
+public class ShoppingCartActivity extends BaseActivity {
+
+	private ListView mListView;
+	private List<String> mList;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_shopping_cart);
+	}
 }
