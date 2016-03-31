@@ -52,11 +52,27 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@android:color/holo_blue_light" >
-        <TextView 
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"/>
+            android:layout_alignParentTop="true"
+            android:text="@string/you_need_to_pay" />
+
+        <Button
+            android:id="@+id/btn_order_check_in_submit_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_order_check_in_continue_shop"
+            android:text="@string/submit_order" />
+
+        <Button
+            android:id="@+id/btn_order_check_in_continue_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/continue_shop" />
     </RelativeLayout>
 
 </LinearLayout>
