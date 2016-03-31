@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.peoplehealth.activity.CheckInActivity"
+            android:name="com.peoplehealth.activity.OrderCheckInActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.peoplehealth.activity.CompleteBaseInfoActivity"

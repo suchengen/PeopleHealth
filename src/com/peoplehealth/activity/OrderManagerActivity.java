@@ -2,6 +2,14 @@ package com.peoplehealth.activity;
 
 import java.util.ArrayList;
 
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
+
 import com.peoplehealth.adapter.BaseFragmentPagerAdapter;
 import com.peoplehealth.fragment.OrderManagerAllFragment;
 import com.peoplehealth.fragment.OrderManagerNoEvelauteFragment;
@@ -11,14 +19,6 @@ import com.peoplehealth.fragment.OrderManagerNoSendFragment;
 import com.peoplehealth.fragment.OrderManagerRefundFragment;
 import com.peoplehealth.main.fragment.PersonalCenterFragment;
 import com.pepleohealth.R;
-
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.TextView;
 
 //订单管理
 public class OrderManagerActivity extends BaseActivity implements

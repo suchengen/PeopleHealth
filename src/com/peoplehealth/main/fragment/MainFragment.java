@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.peoplehealth.activity.ProductDetailActivity;
 import com.peoplehealth.activity.ProductListActivity;
 import com.pepleohealth.R;
 
@@ -30,6 +31,15 @@ public class MainFragment extends Fragment {
 			public void onClick(View v) {
 				getActivity().startActivity(
 						new Intent(getActivity(), ProductListActivity.class));
+			}
+		});
+		Button btn2 = (Button) getView().findViewById(R.id.button2);
+		btn2.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				getActivity().startActivity(
+						new Intent(getContext(), ProductDetailActivity.class));
 			}
 		});
 	}
